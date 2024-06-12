@@ -1,0 +1,16 @@
+:root {
+  --min: 15px;
+}
+
+body {
+  /* font-size: 20px; */
+  font-size: calc(var(--min) + 0.390625vw * 2);
+}
+
+.h1 {
+  font-size: calc((var(--min) + 0.390625vw) * 2);
+  font-weight: bold;
+}
+.para {
+  font-size: calc(var(--min) + 0.390625vw);
+}
